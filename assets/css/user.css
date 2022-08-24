@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 200px; */
+}
+
+table, td, th, tr{
+    border: 2px solid;
+    border-collapse: collapse;
+    /* border-width: 10px; */
+    border-color: black;
+}
+
+td{
+    padding: 3px;
+}
+
+#cont{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
